@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+            
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: solid black;
+            border-radius: 10px  ;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: solid red;
+            border-radius: 10px  ;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 80px;
+            background-color: #007bff;
+            padding-top: 20px;
+            border: solid black;
+            border-radius: 10px  ;
+        }
+
+        .sidebar a {
+            display: block;
+            margin-bottom: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #007bff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .thank-you {
+            text-align: center;
+            font-size: 18px;
+            color: #007bff;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #007bff;
+            margin-right: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-links a:hover {
+            color: #0056b3;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 80px;
+            background-color: skyblue;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .sidebar img {
+            width: 40px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+   
+
+    <header>
+        <img src="vasim.jpeg" alt="Profile Picture" class="profile-pic">
+        <h1>VASIM MIRZA</h1>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/vasim-mirza-809118280" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="insta link" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="Fb link" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+    </header>
+    
+    <div class="sidebar">
+        <a href="https://www.linkedin.com/in/vasim-mirza-809118280" target="_blank">
+            <img src="lidicon.jpg" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com/vasimmirza786?igsh=MWkzNDA5YzRkY2hrdA==" target="_blank">
+            <img src="Instagram-Icon.png" alt="insta">
+        </a>
+
+        <a href="Fb link" target="_blank">
+            <img src="fb.png" alt="fb">
+        </a>
+    </div>
+    <div class="container">
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                
+            </ul>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate and results-driven Front-End Developer with a strong foundation in modern web development technologies. I am dedicated to creating elegant solutions that enhance user experience and drive business growth.
+            </p>
+        </section>
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <p><strong>Front-End Developer</strong> - (2024-present)</p>
+            <ul>
+                <li>Developed and maintained responsive web applications using HTML, CSS </li>
+                
+            </ul>
+           
+            </ul>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            
+            <p><strong>Personal Portfolio</strong></p>
+            <p>Designed and implemented a professional portfolio website showcasing skills, projects, and experience.</p>
+        </section>
+        <section id="contact" class="section contact-info">
+            <h2>Contact Details</h2>
+            <p><strong>Email:</strong> vasimm007@gmail.com</p>
+            <p><strong>Phone:</strong> 8806567358</p>
+            <p><strong>Location:</strong> City.Badnapur, Dist.Jalna, State.Maharashtra</p>
+        </section>
+        <div class="thank-you">
+            THANK YOU!
+        </div>
+      
+        <div style="display: flex; justify-content: center; align-items: end; height: 60vh;">
+            
+            <video controls  autoplay muted ="100%" height="auto" style="max-width: 600px;">
+             <source src="./vasim pp.mp4">
+            </video>
+          
+        </div><center>  <h3> Source Code Video</h3> </center>
+
+    </div>
+
+</body>
+
+</html>
